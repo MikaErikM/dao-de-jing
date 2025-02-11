@@ -5,7 +5,7 @@ This project analyzes English language translations of the Daodejing using data 
 ## Setup and Usage
 ```bash
 # Create virtual environment
-python -m venv venv
+python3 -m venv venv
 source venv/bin/activate  # Unix/macOS
 .\venv\Scripts\activate   # Windows
 
@@ -15,7 +15,7 @@ python3 run.py
 
 The script downloads translation links, extracts content by chapter, and cleans the data for analysis in Jupyter Notebook.
 
-After creating the file - move to the Notebook for further analysis.
+After creating the file - move to the Jupyter Notebook for further analysis.
 
 ## Project Context
 The Daodejing is a significant but concise text (~5,000 characters) with numerous English translations. This project currently includes about 60 translations, creating a foundation for analyzing:
@@ -27,3 +27,6 @@ The Daodejing is a significant but concise text (~5,000 characters) with numerou
 - Add metadata (year and translator name)
 - Include additional translations
 - Expand the analysis
+
+## AI Attribution
+Portions of this code were developed with the assistance of large language models (specifically Claude 3.5 Sonnet by Anthropic). This is noted in accordance with best practices for AI attribution.
