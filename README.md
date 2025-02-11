@@ -15,6 +15,8 @@ python3 run.py
 
 The script downloads translation links, extracts content by chapter, and cleans the data for analysis in Jupyter Notebook.
 
+After creating the file - move to the Notebook for further analysis.
+
 ## Project Context
 The Daodejing is a significant but concise text (~5,000 characters) with numerous English translations. This project currently includes about 60 translations, creating a foundation for analyzing:
 - Differences between translations
@@ -23,5 +25,5 @@ The Daodejing is a significant but concise text (~5,000 characters) with numerou
 
 ## Next Steps
 - Add metadata (year and translator name)
-- Include missing translations
+- Include additional translations
 - Expand the analysis
